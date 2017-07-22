@@ -1,0 +1,50 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: "Georgia", Times New Roman, Times, serif;
+        font-family: 18px;
+        line-height: 150%;
+	}
+
+header {
+	margin: 0px;
+}	
+
+h2 {
+	padding: 25px;
+	margin: 0px 0px 0px 150px;
+	text-align: center;
+	color: white;
+	background-color: #4AAAA5;
+}
+
+#main-title,
+#main-links {
+	float: left;
+}
+
+#main-title {
+	width: 30%;
+}
+
+#main-links {
+	width: 65%;
+	text-align: right;
+}
+
+.about-link,
+.portfolio-link,
+.contact-link {
+	padding: 20px;
+	margin-top: 15px;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: #AEADB0;
+	font-size: 16px;
+	border-right: 1px solid #AEADB0;
+	padding-right: 15px;
+}
