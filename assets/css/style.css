@@ -12,8 +12,8 @@ header {
 }	
 
 h2 {
-	padding: 25px;
-	margin: 0px 0px 0px 150px;
+	padding: 20px;
+	margin: 0px 0px 0px 175px;
 	text-align: center;
 	color: white;
 	background-color: #4AAAA5;
@@ -24,27 +24,83 @@ h2 {
 	float: left;
 }
 
-#main-title {
-	width: 30%;
-}
-
 #main-links {
-	width: 65%;
 	text-align: right;
+	margin-top: 20px;
+	margin-left: 340px;
 }
 
-.about-link,
+/*.about-link,
 .portfolio-link,
 .contact-link {
 	padding: 20px;
 	margin-top: 15px;
-}
+}*/
 
-a,
-a:hover {
+.nav-links,
+.nav-links:hover {
 	text-decoration: none;
 	color: #AEADB0;
-	font-size: 16px;
-	border-right: 1px solid #AEADB0;
-	padding-right: 15px;
+	font-size: 15px;
+	border-right: 1px solid #E4E4E4;
+	padding: 0px 15px 0px 15px;
+}
+
+#main-container {
+	background-color: #F2F2F2;
+	padding: 25px;
+	overflow: auto;
+	width: 100%;
+	border-bottom: 8px solid #4AAAA5;
+	border-top: 1px solid #AEADB0;
+}
+
+#left {
+	float: left;
+	width: 40%;
+	border: 1px solid #E4E4E4;
+	background-color: #fff;
+	margin: 0px 15px 0px 150px;
+	padding: 10px 20px 10px 20px;
+	color: #968A8C;
+}
+
+#right {
+	float: left;
+	width: 14%;
+	margin-left: 20px;
+	margin: 0px 100px 0px 30px;
+	border: 1px solid #E4E4E4;
+	background-color: #fff;
+	padding: 10px 20px 10px 20px;
+}
+
+footer {
+	background-color: #666666;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: #fff;
+}
+
+h3, h4 {
+	color: #4AAAA5;
+}
+
+hr {
+    background-color: transparent;
+    border-top: 2px solid #F0E8E3;
+}
+
+.profile-image {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0px 15px 10px 0px;
+}
+
+#right hr {
+	/*border-top: 1px solid #F0E8E3;*/
+	color: #F0E8E3;
 }
