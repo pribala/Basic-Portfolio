@@ -151,3 +151,34 @@ textarea {
   border: 1px solid #E4E4E4;
 }
 
+.row1,
+.row2,
+.row3 {
+  clear: both;
+}
+
+.left-section,
+.right-section {
+  float: left;
+  padding: 0px 10px 10px 20px;
+}
+
+.folio-img {
+  width: 250px;
+  height: 200px;
+}
+
+.folio-title {
+  position: relative;
+  bottom: 50px;
+  left: 0px;
+  margin: 0px;
+  background-color: #4AAAA5;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.row1 {
+  margin-top: 30px;
+}
