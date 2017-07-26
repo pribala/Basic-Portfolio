@@ -56,7 +56,9 @@ h2 {
   border-top: 1px solid #cccccc;
   flex: 1;
   margin: 0;
-  
+  /*background-image: url("assets/images/vertical-waves.png")*/
+  background-image: url(assets/images/vertical-waves.png);
+  background-repeat:repeat;
 }
 
 footer {
