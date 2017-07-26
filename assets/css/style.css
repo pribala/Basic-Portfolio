@@ -155,6 +155,10 @@ input[type="submit"] {
   font-size: 15px;
 }
 
+input[type="submit"]:hover {
+  background-color: #00E5DF;
+}
+
 textarea {
   padding: 5px;
   margin: 10px 15px 0px 0px;
@@ -193,4 +197,12 @@ textarea {
 
 .row1 {
   margin-top: 30px;
+}
+
+.rotate:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
